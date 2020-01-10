@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>xianxin</title>
+    <script
+        id="MoblieJS">(function (doc, win) { var _root = doc.documentElement, resizeEvent = "orientationchange" in window ? "orientationchange" : "resize", resizeCallback = function () { var clientWidth = _root.clientWidth, fontSize = 100; if (!clientWidth) { return } if (clientWidth < 640) { fontSize = fontSize * (clientWidth / 375) } else { fontSize = fontSize * (640 / 375) } _root.style.fontSize = fontSize + "px" }; if (!doc.addEventListener) { return } win.addEventListener(resizeEvent, resizeCallback, false); doc.addEventListener("DOMContentLoaded", resizeCallback, false) })(document, window);</script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <script src="https://unpkg.com/vuex"></script>
+    <script src="https://unpkg.com/axios@0.19.0/dist/axios.min.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+</html>
